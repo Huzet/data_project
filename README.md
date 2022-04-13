@@ -21,7 +21,7 @@ special_attack   = 50           109
 special_defense  = 50           85             
 speed            = 90           100   
 
-./compare_pokemon.py
+./compare_pokemon.py -h
 usage: compare_pokemon.py [-h] [-s STAT] [-c pk1 pk2]
 
 A script that is used to get base stats on 1 pokemon or can compare 2 pokemon
@@ -30,4 +30,7 @@ options:
   -h, --help            show this help message and exit
   -s STAT, --stat STAT  Get stats for one pokemon
   -c pk1 pk2, --compare pk1 pk2
+
+./compare_pokemon.py
+Please use the -h or --help to get assistance: compare_pokemon.py -h 
 ```
